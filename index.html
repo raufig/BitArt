@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitArt</title>
+    <link rel="icon" href="Icon/Icon.png">
+    <link rel="stylesheet" href="css_home/menu.css">
+    <link rel="stylesheet" href="css_home/slider.css">
+    <link rel="stylesheet" href="css_home/contenido.css">
+    <link rel="stylesheet" href="css_home/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--encabezado de la pagina-->
+    <header class="iconobitart">
+        <img class="img_logo" src="icon/Icon.png" alt="logobitart">
+    </header>
+
+    <header class="main_header">
+        <input type="checkbox" id="boton_menu">
+        <!--es la etiqueta que mejora la accesibilidad al usuario por medio de los imputs-->
+        <label class="icono_menu" for="boton_menu"> 
+            <img src="icon/iconoMenu.png" alt="iconomenu" width="35px" height="35px">
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a target="_black" href="obras/obras.html"> Obras </a></li>
+            </ul>
+        <!--Boton desplegable-->
+        <div class="dropdown">
+            <button class="dropbtn">more</button>
+                <div class="dropdown_content">
+                    <a href="#seccion1">Seccion 1</a>
+                    <a href="#seccion2">Seccion 2</a>
+                    <a href="#seccion3">Seccion 3</a>
+                    <a href="#info">Info</a>
+                </div>
+        </div>    
+        </nav>
+
+    </header>
+    <section>
+        <article>
+            <ul class="slider_portada">
+                <!--Imagen slider 1-->
+                <li>
+                    <!--Name identifica el control-->
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+                    <img src="image/quiros01.jpg" alt="obra1">
+                </li>
+                <!--Imagen slider 2-->
+                <li>
+                    <input type="radio" id= sbutton2 name="sradio">
+                    <label for="sbutton2"></label>
+                    <img src="image/quiros02.jpg" alt="obra2">
+                </li>
+                 <!--Imagen slider 3-->
+                 <li>
+                    <input type="radio" id= sbutton3 name="sradio">
+                    <label for="sbutton3"></label>
+                    <img src="image/wosnan02.jpg" alt="obra3">
+                </li>
+                <!--Imagen slider 4-->
+                <li>
+                    <input type="radio" id= sbutton4 name="sradio">
+                    <label for="sbutton4"></label>
+                    <img src="image/Wosnan-issa-12.jpg" alt="obra4">
+                </li>
+                <li>
+                    <input type="radio" id= sbutton5 name="sradio">
+                    <label for="sbutton5"></label>
+                    <img src="image/Wosnanbus01.jpg" alt="obra5">
+                </li>
+            </ul>
+        </article>
+
+    </section>
+
+    <article id="seccion1" class="bloquetitulo">
+        <h1>Bienvenid@s a BITART!</h1>
+
+        <section class="parrafotitulo">
+            <p>
+                En BITART estamos convecidos de que el arte debe <br>
+
+                formar parte de la vida de todos, por eso es una plataforma<br>
+
+                para aficionados al arte y así mismo para ti. Conoce<br>
+
+                muralistas y artistas dedicados al street-art<br>
+
+            </p>
+
+            <div class="iconoart">
+                <img src="icon/icon02.png" alt="Icono02">
+
+            </div>
+
+        </section>
+    </article>
+
+    <article id="seccion2" class="bloquetitulo2">
+        <h2>Artistas</h2>
+            <Section class="parrafotitulo2">
+                <hr width="600px" color="greenyellow">
+                    <p>
+                       <b> El muralismo fue un movimiento <br>
+                           artístico iniciado en México <br>
+                        a principios del siglo XX, creado <br>
+                        por un grupo de pintoress<br>
+                        intelectuales mexicanos después <br>
+                        de la Revolución Mexicana,<br>
+                        reforzado por la Gran Depresión <br>
+                        y la Primera Guerra Mundial..<br>
+                        
+                        Simplemente haz <span style="color:greenyellow;">click</span> en el video.<br><b>
+
+                    </p>
+            </Section>  
+            
+        <section class="videopintores">
+            
+            <video src="video/video001.mp4" controls width="610px" height="500px"> 
+            </video>
+
+        </section>
+
+    </article>
+
+
+    <figure id="seccion3" class="fotografia">
+        <img src="image/Diego Rivera.jpg" alt="Diego" class="fotodiego">
+        <i>
+            <q> <!--la etiqueta "q" agrega una cita-->
+                He llegado a pintar con la misma naturalidad con la que hablaba, respiraba y sudaba.
+            </q>
+            <p>-Diego Rivera</p>
+        </i>
+
+    </figure>
+
+    <footer id="info">
+        <section class="partefooter">
+            <h3 class="titulomapa">
+                Tambien Puedes ubicarnos y Contactarnos:
+            </h3>
+
+            <div class="contenidof">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8502664790126!2d-74.06585658599332!3d4.620789396643216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99f7fa84fe3b%3A0x4a37c6adedc1d243!2sBICTIA!5e0!3m2!1ses!2sco!4v1585845300154!5m2!1ses!2sco"
+                    width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+            <!--etiqueta que define-->
+            <form action="">
+                <h4>
+                    contacto
+                </h4>
+                <input type="text" name="nombre" placeholder="nombre"
+                    maxlength="35">
+
+                <input type="email" name=e-mail placeholder="e-mail">
+                <input type="tel" name=Tel placeholder="Tel">
+                <textarea name="mensaje" id="textarea" cols="dejanos tus comentariod" rows="5"></textarea>
+                <label for="textarea"></label>
+                <input type="submit" id="boton" calue="enviar">
+            </form>
+
+            <div class="contenidoiconos">
+                <hr width="85%" color="black">
+                <div class="iconosredes">
+                    
+                    <a href="http://www.twitter.com" target="_black">
+                        <img src="icon/twitter.png" alt="iconotwitter">                        
+                    </a>
+
+                    <a href="http://www.facebook.com" target="_black">
+                        <img src="icon/facebook.png" alt="iconofacebook">
+                    </a>
+
+                    <a href="http://www.instagram.com" target="_black">
+                        <img src="icon/instagram.png" alt="iconoinstagram">
+                    </a>
+
+                </div>
+
+
+            </div>
+
+            <hr width="100%" color="black">
+
+            <div class="Copyright">
+                © Copyright by Raul Figueroa A Rights Statement
+            </div>
+
+        </section>
+
+    </footer>
+
+
+
+</body>
+</html>

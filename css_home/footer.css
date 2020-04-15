@@ -1,0 +1,109 @@
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+.partefooter{
+    background-color: greenyellow;
+    padding: 50px;
+    width: 100%;
+    
+}
+
+.contenidof{
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.titulomapa{
+    color: black;
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    padding: 35px 0 15px 0;
+    font-size: 30px;
+}
+
+iframe{
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+form{
+    margin-left: 50px;
+    width: 450px;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Calligraffitti', cursive;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Calligraffitti', cursive;
+
+}
+
+textarea{
+    min-height: 100px;
+    max-width: 200px;
+    min-width: 100px;
+    max-width: 100%;
+
+}
+
+#boton{
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: greenyellow;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+.contenidoiconos{
+    margin-top: 150px;
+    text-align: center;
+    display: block;
+    margin-bottom: 70px;
+
+}
+    /*margin-top: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;*/
+
+    .iconosredes{
+        margin: 0 auto;
+        width: 300px;
+        padding-top: 50px;
+    }
+
+    .iconosredes img {
+        padding: 4px;
+    }
+
+    .Copyright{
+        color: black;
+        text-align: center;
+        width: 100%;
+        font-family: 'Calligraffitti', cursive;
+        font-size: 20px;
+    }

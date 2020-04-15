@@ -1,0 +1,162 @@
+.iconobitart{
+    background: #000000;
+    padding-top: 8px;
+}
+
+.img_logo{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    /* Es remplazado por algun valor apropiado */
+    display: block;
+}
+
+.main_header{
+    text-align: center;
+    width: 100%;
+    background-color: #000000;
+    font-size: 26px;
+    font-family: 'Calligraffitti', cursive;
+    margin-top: -8px;
+}
+
+
+#boton_menu{
+    display: none;
+}
+
+.icono_menu{
+    padding-top: 30px;
+}
+
+header label{
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+header label:hover {
+    cursor: pointer; /*cursor para a ser manita*/
+    background-color: white;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:inline-flex;
+    text-decoration-skip: none;
+
+}
+
+.menu li{
+    padding: 20px 25px 0px 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: overline;
+    color: greenyellow;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-flex;
+}
+
+.dropbtn{
+    background-color: #000;
+    font-size: 26px;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: greenyellow;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 72px;
+    /* superponer*/
+
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content a{
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content a:hover{
+    background-color: greenyellow;
+}
+
+.dropdown:hover .dropbtn{
+    color: greenyellow;
+    text-decoration: overline;
+}
+
+@media (max-width: 920px) {
+    header label {
+        display: block;
+        height: 70px;
+    }
+    
+    .menu {
+        position: absolute;
+        background-color: greenyellow;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+        
+    }
+
+    #boton_menu:checked ~ .menu{
+        margin: 0;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu li:hover{
+        background-color: black;
+
+    }
+
+    .dropbtn{
+        background-color: greenyellow;
+        color: white;
+    }
+
+    .dropdown_content a {
+        color: white;
+
+    }
+
+    .dropdown_content a:hover{
+        color: greenyellow;
+        background-color: #000;
+
+    }
+
+    .dropdown:hover  .dropbtn{
+        color: greenyellow;
+        background-color: #000;
+    }
+
+}

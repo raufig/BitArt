@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.bloquetitulo{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    color: greenyellow;
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.parrafotitulo{
+    letter-spacing: 1px;
+    font-family: 'Calligraffitti', cursive;
+    color: greenyellow;
+    font-size: 26px;
+    margin-top: -30px;
+    /*white-space: pre-wrap;*/
+}
+
+.icono02{
+    padding-top: 55px;
+   
+
+}
+.bloquetitulo2{
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding-top: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Calligraffitti', cursive;
+    background-image: url(../image/background01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parrafotitulo2{
+    letter-spacing: 2px;
+    font-family: 'Calligraffitti', cursive;
+    float: left;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.videopintores{
+    letter-spacing: 1px;
+    font-family: cursive;
+    float: right;
+    font-size: 24px;
+    margin-right: 55px;
+    
+
+}
+
+.fotografia{
+    text-align: center;
+    font-size: 40px;
+    color: greenyellow;
+    padding-bottom: 15%;
+}
+
+.fotodiego{
+    width: 800px;
+    display: block;
+    margin: 135px auto;
+    border-radius: 550px;
+}
+
+
+
+
